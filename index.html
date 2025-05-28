@@ -1,0 +1,778 @@
+<html lang="en">
+<head>
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css">
+
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-rtl.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-datepicker.css">
+
+    <title>
+        نمونه
+    </title>
+    <script src="js/jquery-1.11.2.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/validator.min.js"></script>
+
+    <script src="js/bootstrap-datepicker.js"></script>
+
+    <script src="js/bootstrap-datepicker.fa.js"></script>
+
+
+</head>
+<body>
+<div class="container">
+
+    <form id="form" class="col-md-12">
+
+        <div class="box">
+            <hr>
+            <!--<div class="col-md-12 header brown">-->
+    <!--<span class="text">-->
+            <!--مشخصات فردی-->
+
+    <!--</span>-->
+
+            <!--</div>-->
+            <div class="clear ">
+                <div class="col-md-3">
+                    <label class="m-t">
+                        رشته تحصیلی
+                        <span class="red">
+                *
+            </span>
+                    </label>
+                </div>
+
+
+            </div>
+            <div class="clear">
+                <div class="col-md-3 col-md-offset-1">
+                    <label class="m-t">
+                        گرایش
+
+                    </label>
+                </div>
+                <div class="col-md-4 ">
+
+                    <div class="form-group ">
+                        <input required class="form-control" placeholder="">
+                        <!--<div class="help-block with-errors">Hey look, this one has feedback icons!</div>-->
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="clear">
+                <div class="col-md-3 col-md-offset-1">
+                    <label class="m-t">
+                        معدل
+
+                    </label>
+                </div>
+                <div class="col-md-4 m-b-l">
+
+                    <div class="form-group ">
+                        <input required class="form-control" placeholder="">
+                        <!--<div class="help-block with-errors">Hey look, this one has feedback icons!</div>-->
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="clear">
+                <div class="col-md-3">
+                    <label class="m-t">
+                        محل تحصیل
+                        <span class="red">
+                *
+            </span>
+                    </label>
+                </div>
+
+
+            </div>
+            <div class="clear">
+                <div class="col-md-3 col-md-offset-1">
+                    <label class="m-t">
+                        استان
+
+                    </label>
+                </div>
+                <div class="col-md-4 ">
+
+                    <div class="form-group ">
+                        <input required class="form-control" placeholder="">
+                        <!--<div class="help-block with-errors">Hey look, this one has feedback icons!</div>-->
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="clear">
+                <div class="col-md-3 col-md-offset-1">
+                    <label class="m-t">
+                        شهر
+
+                    </label>
+                </div>
+                <div class="col-md-4 ">
+
+                    <div class="form-group ">
+                        <input required class="form-control" placeholder="  ">
+                        <!--<div class="help-block with-errors">Hey look, this one has feedback icons!</div>-->
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="clear">
+                <div class="col-md-3 col-md-offset-1">
+                    <label class="m-t">
+                        آدرس
+
+                    </label>
+                </div>
+                <div class="col-md-4 m-b-l">
+
+                    <div class="form-group ">
+                        <input required class="form-control" placeholder="  ">
+                        <!--<div class="help-block with-errors">Hey look, this one has feedback icons!</div>-->
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="clear">
+                <div class="col-md-3 ">
+                    <label class="m-t">
+                        تاریخ ورود به دانشگاه:
+
+                    </label>
+                </div>
+                <div class="col-md-4 m-b-l col-md-offset-1">
+
+                    <div class="form-group ">
+                        <input required class="form-control" placeholder="  ">
+                        <!--<div class="help-block with-errors">Hey look, this one has feedback icons!</div>-->
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="clear">
+                <div class="col-md-3 ">
+                    <label class="m-t">
+                        تاریخ فراغت از تحصیل (کی فارغ التحصیل شده اید یا می شوید؟):
+
+                    </label>
+                </div>
+                <div class="col-md-4 m-b-l col-md-offset-1">
+
+                    <div class="form-group ">
+                        <input required class="form-control" placeholder="  ">
+                        <!--<div class="help-block with-errors">Hey look, this one has feedback icons!</div>-->
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="clear">
+                <div class="col-md-3 ">
+                    <label class="m-t">
+                        سوابق شغلی
+
+                    </label>
+                </div>
+                <div class="m-t col-md-12">
+
+                    <div class="form-group ">
+                        <table class="table table-bordered">
+                            <thead>
+                            <tr>
+                                <th>ردیف</th>
+                                <th> محل کار</th>
+                                <th> تاریخ شروع</th>
+                                <th> تاریخ پایان</th>
+                                <th> نام سمت</th>
+
+                                <th>میزان حقوق دریافتی</th>
+
+                                <th> علت ترک شغل</th>
+                                <th>آدرس محل کار</th>
+                                <th>تلفن محل کار</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr class="">
+                                <th scope="row">1</th>
+                                <td>
+                                    <div class="col-xl-12">
+                                        <input type="text" class="form-control" placeholder="">
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="col-xl-12">
+                                        <input type="text" class="form-control" placeholder="">
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="col-xl-12">
+                                        <input type="text" class="form-control" placeholder="">
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="col-xl-12">
+                                        <input type="text" class="form-control" placeholder="">
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="col-xl-12">
+                                        <input type="text" class="form-control" placeholder="">
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="col-xl-12">
+                                        <input type="text" class="form-control" placeholder="">
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="col-xl-12">
+                                        <input type="text" class="form-control" placeholder="">
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="col-xl-12">
+                                        <input type="text" class="form-control" placeholder="">
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr class="">
+                                <th scope="row">2</th>
+                                <td>
+                                    <div class="col-xl-12">
+                                        <input type="text" class="form-control" placeholder="">
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="col-xl-12">
+                                        <input type="text" class="form-control" placeholder="">
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="col-xl-12">
+                                        <input type="text" class="form-control" placeholder="">
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="col-xl-12">
+                                        <input type="text" class="form-control" placeholder="">
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="col-xl-12">
+                                        <input type="text" class="form-control" placeholder="">
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="col-xl-12">
+                                        <input type="text" class="form-control" placeholder="">
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="col-xl-12">
+                                        <input type="text" class="form-control" placeholder="">
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="col-xl-12">
+                                        <input type="text" class="form-control" placeholder="">
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr class="">
+                                <th scope="row">3</th>
+                                <td>
+                                    <div class="col-xl-12">
+                                        <input type="text" class="form-control" placeholder="">
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="col-xl-12">
+                                        <input type="text" class="form-control" placeholder="">
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="col-xl-12">
+                                        <input type="text" class="form-control" placeholder="">
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="col-xl-12">
+                                        <input type="text" class="form-control" placeholder="">
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="col-xl-12">
+                                        <input type="text" class="form-control" placeholder="">
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="col-xl-12">
+                                        <input type="text" class="form-control" placeholder="">
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="col-xl-12">
+                                        <input type="text" class="form-control" placeholder="">
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="col-xl-12">
+                                        <input type="text" class="form-control" placeholder="">
+                                    </div>
+                                </td>
+                            </tr>
+
+                            </tbody>
+                        </table>
+                        <!--<div class="help-block with-errors">Hey look, this one has feedback icons!</div>-->
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="box">
+            <hr>
+            <div class="col-md-12 header brown">
+    <span class="text">
+          مهارتها
+
+
+    </span>
+
+            </div>
+
+            <div class="clear">
+                <div class="col-md-3">
+                    <label class="m-t">
+                        کامپیوتر
+                        <span class="red">
+                *
+            </span>
+                    </label>
+
+                </div>
+                <div class="col-md-4 m-b-l  col-md-offset-1">
+                    <div data-type="radiobutton" class="form-group">
+
+                        <div class="radio right">
+                            <label>
+                                <input required name="radiobutton1" value="عالی" type="radio">
+
+                                عالی
+                            </label>
+                        </div>
+                        <div style=" margin-top: 10px;margin-right: 10px;" class="radio right">
+
+                            <label>
+                                <input required name="radiobutton1" value="خوب" type="radio">
+
+                                خوب
+                            </label>
+                        </div>
+                        <div style=" margin-top: 10px;margin-right: 10px;" class="radio right">
+
+                            <label>
+                                <input required name="radiobutton1" value="متوسط" type="radio">
+
+                                متوسط
+                            </label>
+                        </div>
+                        <div style=" margin-top: 10px;margin-right: 10px;" class="radio right">
+
+                            <label>
+                                <input required name="radiobutton1" value="کم" type="radio">
+
+                                کم
+                            </label>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="clear">
+                <div class="col-md-3">
+                    <label class="m-t">
+                        آفیس
+                        <span class="red">
+                *
+            </span>
+                    </label>
+
+                </div>
+                <div class="col-md-4 m-b-l  col-md-offset-1">
+                    <div data-type="radiobutton" class="form-group">
+
+                        <div class="radio right">
+                            <label>
+                                <input required name="radiobutton2" value="عالی" type="radio">
+
+                                عالی
+                            </label>
+                        </div>
+                        <div style=" margin-top: 10px;margin-right: 10px;" class="radio right">
+
+                            <label>
+                                <input required name="radiobutton2" value="خوب" type="radio">
+
+                                خوب
+                            </label>
+                        </div>
+                        <div style=" margin-top: 10px;margin-right: 10px;" class="radio right">
+
+                            <label>
+                                <input required name="radiobutton2" value="متوسط" type="radio">
+
+                                متوسط
+                            </label>
+                        </div>
+                        <div style=" margin-top: 10px;margin-right: 10px;" class="radio right">
+
+                            <label>
+                                <input required name="radiobutton2" value="کم" type="radio">
+
+                                کم
+                            </label>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="clear">
+                <div class="col-md-3">
+                    <label class="m-t">
+                        طراحی و آنالیز سیستمها
+                        <span class="red">
+                *
+            </span>
+                    </label>
+
+                </div>
+                <div class="col-md-4 m-b-l  col-md-offset-1">
+                    <div data-type="radiobutton" class="form-group">
+
+                        <div class="radio right">
+                            <label>
+                                <input required name="radiobutton3" value="عالی" type="radio">
+
+                                عالی
+                            </label>
+                        </div>
+                        <div style=" margin-top: 10px;margin-right: 10px;" class="radio right">
+
+                            <label>
+                                <input required name="radiobutton3" value="خوب" type="radio">
+
+                                خوب
+                            </label>
+                        </div>
+                        <div style=" margin-top: 10px;margin-right: 10px;" class="radio right">
+
+                            <label>
+                                <input required name="radiobutton3" value="متوسط" type="radio">
+
+                                متوسط
+                            </label>
+                        </div>
+                        <div style=" margin-top: 10px;margin-right: 10px;" class="radio right">
+
+                            <label>
+                                <input required name="radiobutton3" value="کم" type="radio">
+
+                                کم
+                            </label>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="clear">
+                <div class="col-md-3">
+                    <label class="m-t">
+                        امور مالی، حسابداری و حقوقی
+                        <span class="red">
+                *
+            </span>
+                    </label>
+
+                </div>
+                <div class="col-md-4 m-b-l  col-md-offset-1">
+                    <div data-type="radiobutton" class="form-group">
+
+                        <div class="radio right">
+                            <label>
+                                <input required name="radiobutton4" value="عالی" type="radio">
+
+                                عالی
+                            </label>
+                        </div>
+                        <div style=" margin-top: 10px;margin-right: 10px;" class="radio right">
+
+                            <label>
+                                <input required name="radiobutton4" value="خوب" type="radio">
+
+                                خوب
+                            </label>
+                        </div>
+                        <div style=" margin-top: 10px;margin-right: 10px;" class="radio right">
+
+                            <label>
+                                <input required name="radiobutton4" value="متوسط" type="radio">
+
+                                متوسط
+                            </label>
+                        </div>
+                        <div style=" margin-top: 10px;margin-right: 10px;" class="radio right">
+
+                            <label>
+                                <input required name="radiobutton4" value="کم" type="radio">
+
+                                کم
+                            </label>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="clear">
+                <div class="col-md-3">
+                    <label class="m-t">
+
+
+                        مدیریت منابع انسانی <span class="red">
+                *
+            </span>
+                    </label>
+
+                </div>
+                <div class="col-md-4 m-b-l  col-md-offset-1">
+                    <div data-type="radiobutton" class="form-group">
+
+                        <div class="radio right">
+                            <label>
+                                <input required name="radiobutton5" value="عالی" type="radio">
+
+                                عالی
+                            </label>
+                        </div>
+                        <div style=" margin-top: 10px;margin-right: 10px;" class="radio right">
+
+                            <label>
+                                <input required name="radiobutton5" value="خوب" type="radio">
+
+                                خوب
+                            </label>
+                        </div>
+                        <div style=" margin-top: 10px;margin-right: 10px;" class="radio right">
+
+                            <label>
+                                <input required name="radiobutton5" value="متوسط" type="radio">
+
+                                متوسط
+                            </label>
+                        </div>
+                        <div style=" margin-top: 10px;margin-right: 10px;" class="radio right">
+
+                            <label>
+                                <input required name="radiobutton5" value="کم" type="radio">
+
+                                کم
+                            </label>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="clear">
+                <div class="col-md-3">
+                    <label class="m-t">
+                        مدیریت بازار و بازاریابی <span class="red">
+                *
+            </span>
+                    </label>
+
+                </div>
+                <div class="col-md-4 m-b-l  col-md-offset-1">
+                    <div data-type="radiobutton" class="form-group">
+
+                        <div class="radio right">
+                            <label>
+                                <input required name="radiobutton6" value="عالی" type="radio">
+
+                                عالی
+                            </label>
+                        </div>
+                        <div style=" margin-top: 10px;margin-right: 10px;" class="radio right">
+
+                            <label>
+                                <input required name="radiobutton6" value="خوب" type="radio">
+
+                                خوب
+                            </label>
+                        </div>
+                        <div style=" margin-top: 10px;margin-right: 10px;" class="radio right">
+
+                            <label>
+                                <input required name="radiobutton6" value="متوسط" type="radio">
+
+                                متوسط
+                            </label>
+                        </div>
+                        <div style=" margin-top: 10px;margin-right: 10px;" class="radio right">
+
+                            <label>
+                                <input required name="radiobutton6" value="کم" type="radio">
+
+                                کم
+                            </label>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="clear">
+                <div class="col-md-3">
+                    <label class="m-t">
+
+                        سایر مهارت ها:
+                    </label>
+                </div>
+                <div class="col-md-4 m-b col-md-offset-1">
+
+                    <textarea class="form-control" rows="5"></textarea>
+
+                </div>
+            </div>
+            <div class="clear">
+                <div class="col-md-3">
+                    <label class="m-t">
+                        علاقه مندی ها:
+                    </label>
+                </div>
+                <div class="col-md-4 m-b col-md-offset-1">
+
+                    <textarea class="form-control" rows="5"></textarea>
+
+                </div>
+            </div>
+
+            <div class="clear">
+                <div class="col-md-3">
+                    <label class="m-t">
+
+                        میزان حقوق پیشنهادی (تومان):
+                    </label>
+                </div>
+                <div class="col-md-4 m-b-l col-md-offset-1">
+                    <div class="form-group ">
+                        <input required class="form-control" placeholder="">
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="clear">
+                <div class="col-md-3">
+                    <label class="m-t">
+
+                        سوال امنیتی
+                    </label>
+                </div>
+                <div class="col-md-2 m-b-l col-md-offset-2">
+                    <div class="form-group">
+                        <div class="col-md-6">
+                            <input required type="text" class="form-control" name="captcha" data-cu="salam"/>
+                        </div>
+
+                        <label style="margin-top: 8px" class="col-md-6 control-label " id="captchaOperation"></label>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <div class="clear">
+                <div class="col-md-2 col-md-offset-5">
+                    <button type="submit" class="btn  btn-block btn-default btn-lg">ارسال</button>
+                </div>
+            </div>
+
+        </div>
+
+
+    </form>
+
+</div>
+
+</body>
+
+<script>
+    $('#time').datepicker({
+        dateFormat: 'yy/mm/dd'
+    });
+    $(document).ready(function () {
+        // Generate a simple captcha
+        function randomNumber(min, max) {
+            return Math.floor(Math.random() * (max - min + 1) + min);
+        };
+
+        var r1 = randomNumber(1, 10);
+        var r2 = randomNumber(1, 10);
+
+        $('#captchaOperation').html(['=', r1, '+', r2].join(' '));
+
+        var options = {
+            custom: {
+                cu: function ($el) {
+                    if ($el.val() != r1 + r2) {
+                        return "Hey, that's not valid! It's gotta be "
+                    }
+                }
+            }
+        };
+
+        $('#form').validator(options).on('submit', function (e) {
+            if (e.isDefaultPrevented()) {
+                // handle the invalid form...
+            } else {
+                // everything looks good!
+            }
+        });
+        // $('#ss').bootstrapValidator({
+        //     message: 'This value is not valid',
+        //     icon: {
+        //         valid: 'glyphicon glyphicon-ok',
+        //         invalid: 'glyphicon glyphicon-remove',
+        //         validating: 'glyphicon glyphicon-refresh'
+        //     },
+        // });
+    });
+</script>
+</html>

@@ -1,0 +1,121 @@
+body {
+    width: 100%;
+    position: relative;
+    background-color: white !important;
+    direction: rtl;
+    font-family: 'IRANSans', tahoma, byekan-serif !important;
+}
+
+@font-face {
+    font-family: "IRANSans";
+    src: url(../fonts/IRANSansWeb.woff2) format('truetype');
+}
+
+.brown {
+    color: #b38c39;
+}
+
+.red {
+    color: red;
+}
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+.clear {
+    clear: both;
+}
+
+.m-t {
+    margin-top: 5px;
+}
+
+.no-padding {
+    padding: 0 !important;
+}
+
+.no-border {
+    border: 0 !important;
+}
+
+form {
+    padding: 25px;
+    margin-top: 15px;
+    box-shadow: 0px 0px 2px 2px #bcbcbc;
+    background-color: rgba(255, 255, 255, 0.59);
+}
+
+.box {
+    width: 100%;
+    margin: 0 auto;
+    display: table;
+    margin-bottom: 65px;
+}
+
+.box hr {
+    position: relative;
+    height: 1px;
+    background-color: #ebe6e4;
+    width: 100%;
+}
+
+hr:before {
+    content: "";
+    position: absolute;
+    height: 1px;
+    background-color: #b38c39;
+    width: 18%;
+    border-top: 1px solid #b38c39;
+    right: 0;
+}
+
+hr::after {
+    content: "";
+    position: absolute;
+    height: 1px;
+    background-color: #b38c39;
+    width: 18%;
+    border-top: 1px solid #b38c39;
+    left: 0;
+}
+
+.header {
+    margin: 0 auto;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+.header .text {
+    border-bottom: 2px solid #b38c39;
+    padding: 10px;
+
+}
+
+label {
+    min-width: 40px;
+    font-size: 12px;
+}
+
+.m-b {
+    margin-bottom: 15px;
+}
+
+.m-b-l {
+    margin-bottom: 40px;
+}
+
+.check-box {
+    min-width: 105px;
+    margin-right: 0 !important;
+}
+table{
+    font-size: 11px!important;
+}
