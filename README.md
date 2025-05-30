@@ -1,4 +1,4 @@
-```markdown
+
 # Developer Signup Form Template
 
 A clean, responsive, and customizable signup form template for developers or aspiring programmers. Built with **HTML5**, **CSS3**, and **jQuery**, this form is perfect for onboarding new coders, collecting developer profiles, or gathering information from programming students.
@@ -41,6 +41,7 @@ The form is fully responsive and accessible.
 > ⚠️ Note: This is a frontend-only form template. Backend integration (PHP, Django, Node.js) can be added easily.
 
 ## 📁 Project Structure
+```markdown
 developer-signup-form-template/
 ├── index.html # Main signup form
 ├── css/
@@ -48,7 +49,7 @@ developer-signup-form-template/
 ├── js/
 │ └── main.js # jQuery scripts
 └── images/ # Icons, illustrations (optional)
-
+```
 ## 🚀 How to Use
 1. Clone the repository:
    ```bash
